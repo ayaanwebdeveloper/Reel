@@ -1,0 +1,516 @@
+body{
+    background-color: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 500px;
+    border: 5px solid;
+    height: 580px;
+}
+.dp{
+    border-radius: 50%;
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 3vh;
+    /* border: 5px solid; */
+}
+.pn{
+    margin-top: -10vh;
+    margin-left: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.video{
+    width: 100%;
+    margin-top: 5vh;
+}
+.like{
+    font-size: 50px;
+    margin-top: 30vh;
+    color: gray;
+    transition: all 0.5s;
+    margin-left: 8vh;
+    
+}
+.like:hover{
+    color: rgba(0, 0, 0, 0.541);
+}
+.like:focus{
+   color: blue;
+   rotate: 1deg;
+}
+.likes{
+    font-size: 50px;
+    margin-top: 40vh;
+    color: gray;
+    transition: all 0.5s;
+    margin-left: 20vh;
+    
+}
+.likes:hover{
+    color: rgba(0, 0, 0, 0.541);
+}
+.likes:focus{
+   color: black;
+   rotate: 1deg;
+}
+.com{
+    font-size: 50px;
+    margin-top: 40vh;
+    color: gray;
+    transition: all 0.5s;
+    margin-left: 20vh;
+    
+}
+.com:hover{
+    color: rgba(0, 0, 0, 0.541);
+}
+.com:focus{
+   color: black;
+   rotate: 1deg;
+}
+.chat{
+    width: 100%;
+    background-color: white;
+    margin-top: -80vh;
+    height: 80%;
+    margin-left: 80vh;
+}
+@media (max-width: 446px) {
+    .likes{
+        font-size: 50px;
+        margin-top: 50vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 15vh;
+        
+    }
+    .com{
+        font-size: 50px;
+        margin-top: 40vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 15vh;
+        
+    }
+    .chat{
+        width: 100%;
+        background-color: white;
+        margin-top: 20vh;
+        height: 80%;
+        margin-left: 0vh;
+    }
+}
+@media (max-width: 394px) {
+
+    .like{
+        font-size: 50px;
+        margin-top: 30vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 8vh;
+        
+    }
+    .likes{
+        font-size: 50px;
+        margin-top: 50vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 12vh;
+        
+    }
+    .com{
+        font-size: 50px;
+        margin-top: 40vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 10vh;
+        
+    }
+    .chat{
+        width: 100%;
+        background-color: white;
+        margin-top: 20vh;
+        height: 80%;
+        margin-left: 0vh;
+    }
+
+
+    .pn{
+        margin-top: -6vh;
+        margin-left: 15vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 338px) {
+
+    .like{
+        font-size: 50px;
+        margin-top: 30vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 5vh;
+        
+    }
+    .likes{
+        font-size: 50px;
+        margin-top: 50vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 10vh;
+        
+    }
+    .com{
+        font-size: 50px;
+        margin-top: 40vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 10vh;
+        
+    }
+    .chat{
+        width: 100%;
+        background-color: white;
+        margin-top: 20vh;
+        height: 80%;
+        margin-left: 0vh;
+    }
+
+
+    .pn{
+        margin-top: -6vh;
+        margin-left: 15vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 320px) {
+
+    .like{
+        font-size: 50px;
+        margin-top: 30vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 5vh;
+        
+    }
+    .likes{
+        font-size: 50px;
+        margin-top: 50vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 8vh;
+        
+    }
+    .com{
+        font-size: 50px;
+        margin-top: 40vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 5vh;
+        
+    }
+    .chat{
+        width: 100%;
+        background-color: white;
+        margin-top: 20vh;
+        height: 80%;
+        margin-left: 0vh;
+    }
+
+
+    .pn{
+        margin-top: -6vh;
+        margin-left: 15vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 275px) {
+
+    .like{
+        font-size: 50px;
+        margin-top: 30vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 3vh;
+        
+    }
+    .likes{
+        font-size: 50px;
+        margin-top: 50vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 5vh;
+        
+    }
+    .com{
+        font-size: 50px;
+        margin-top: 40vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 5vh;
+        
+    }
+    .chat{
+        width: 100%;
+        background-color: white;
+        margin-top: 20vh;
+        height: 80%;
+        margin-left: 0vh;
+    }
+
+
+    .pn{
+        margin-top: -6vh;
+        margin-left: 15vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 229px) {
+
+    .like{
+        font-size: 40px;
+        margin-top: 30vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 3vh;
+        
+    }
+    .likes{
+        font-size: 40px;
+        margin-top: 50vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 5vh;
+        
+    }
+    .com{
+        font-size: 40px;
+        margin-top: 40vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 3vh;
+        
+    }
+    .chat{
+        width: 100%;
+        background-color: white;
+        margin-top: 20vh;
+        height: 80%;
+        margin-left: 0vh;
+    }
+
+
+    .pn{
+        margin-top: -6vh;
+        margin-left: 15vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width:251px) {
+
+    .like{
+        font-size: 35px;
+        margin-top: 30vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 5vh;
+        
+    }
+    .likes{
+        font-size: 35px;
+        margin-top: 50vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 7vh;
+        
+    }
+    .com{
+        font-size: 35px;
+        margin-top: 40vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 5vh;
+        
+    }
+    .chat{
+        width: 100%;
+        background-color: white;
+        margin-top: 20vh;
+        height: 80%;
+        margin-left: 0vh;
+    }
+
+
+    .pn{
+        margin-top: -6vh;
+        margin-left: 15vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 201px) {
+
+    .like{
+        font-size: 30px;
+        margin-top: 30vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 3vh;
+        
+    }
+    .likes{
+        font-size: 30px;
+        margin-top: 50vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 5vh;
+        
+    }
+    .com{
+        font-size: 30px;
+        margin-top: 40vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 5vh;
+        
+    }
+    .chat{
+        width: 100%;
+        background-color: white;
+        margin-top: 20vh;
+        height: 80%;
+        margin-left: 0vh;
+    }
+
+
+    .pn{
+        margin-top: -6vh;
+        margin-left: 15vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 360px) {
+
+    .like{
+        font-size: 40px;
+        margin-top: 30vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 3vh;
+        
+    }
+    .likes{
+        font-size: 40px;
+        margin-top: 50vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 5vh;
+        
+    }
+    .com{
+        font-size: 40px;
+        margin-top: 40vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 5vh;
+        
+    }
+    .chat{
+        width: 100%;
+        background-color: white;
+        margin-top: 20vh;
+        height: 80%;
+        margin-left: 0vh;
+    }
+
+
+    .pn{
+        margin-top: -6vh;
+        margin-left: 15vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 375px) {
+
+    .like{
+        font-size: 50px;
+        margin-top: 30vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 5vh;
+        
+    }
+    .likes{
+        font-size: 50px;
+        margin-top: 50vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 7vh;
+        
+    }
+    .com{
+        font-size: 50px;
+        margin-top: 40vh;
+        color: gray;
+        transition: all 0.5s;
+        margin-left: 8vh;
+        
+    }
+    .chat{
+        width: 100%;
+        background-color: white;
+        margin-top: 20vh;
+        height: 80%;
+        margin-left: 0vh;
+    }
+
+
+    .pn{
+        margin-top: -6vh;
+        margin-left: 15vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+}
